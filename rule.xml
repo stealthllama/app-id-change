@@ -1,0 +1,18 @@
+<entry name="app-id-change">
+	<action>
+		<alert/>
+	</action>
+	<vendor-id>
+		<member>any</member>
+	</vendor-id>
+	<severity>
+		<member>informational</member>
+	</severity>
+	<cve>
+		<member>any</member>
+	</cve>
+	<threat-name>any</threat-name>
+	<host>any</host>
+	<category>app-id-change</category>
+	<packet-capture>disable</packet-capture>
+</entry>
