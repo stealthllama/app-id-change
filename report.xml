@@ -1,19 +1,20 @@
 <type>
-	<panorama-thsum>
+	<thsum>
 		<sortby>count</sortby>
 		<group-by>rule</group-by>
 		<aggregate-by>
+			<member>rule_uuid</member>
 			<member>app</member>
 			<member>threatid</member>
 		</aggregate-by>
 		<values>
 			<member>count</member>
 		</values>
-	</panorama-thsum>
+	</thsum>
 </type>
 <period>last-7-days</period>
-<topn>100</topn>
-<topm>100</topm>
+<topn>250</topn>
+<topm>25</topm>
 <caption>App-ID Change Impact Report</caption>
 <description>Rules and applications that will be impacted by App-ID signature changes</description>
 <frequency>daily</frequency>
