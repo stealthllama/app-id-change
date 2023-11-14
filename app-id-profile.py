@@ -27,7 +27,7 @@ RULEXML = 'rule.xml'
 
 def get_arguments():
     parser = argparse.ArgumentParser(
-        prog="appid-profile.py",
+        prog="app-id-profile.py",
         description="Create or update a vulnerability protection profiles to check for app-id-change events"
     )
     parser.add_argument('panorama', help='The IP or FQDN of the Panorama instance')

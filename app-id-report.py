@@ -26,7 +26,7 @@ REPORTNAME = 'Impacted Rules and Apps'
 
 def get_arguments():
     parser = argparse.ArgumentParser(
-        prog="appid-report.py",
+        prog="app-id-report.py",
         description="Create a report that summarizes app-id-change events"
     )
     parser.add_argument('panorama', help='The IP or FQDN of the Panorama instance')
